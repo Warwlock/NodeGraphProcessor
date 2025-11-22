@@ -1,9 +1,10 @@
 # NodeGraphProcessor
-Node graph editor framework focused on data processing using Unity UIElements, GraphView and C# 4.7
 
-[![Discord](https://img.shields.io/discord/823720615965622323.svg)](https://discord.gg/XuMd3Z5Rym)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c62ece874d14a0b965b92cb163e3146)](https://www.codacy.com/manual/alelievr/NodeGraphProcessor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alelievr/NodeGraphProcessor&amp;utm_campaign=Badge_Grade)
-[![openupm](https://img.shields.io/npm/v/com.alelievr.node-graph-processor?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.alelievr.node-graph-processor/)
+**This is forked version of original [NodeGraphProcessor](https://github.com/alelievr/NodeGraphProcessor) for my open source projects.**
+
+## Original Description
+
+Node graph editor framework focused on data processing using Unity UIElements, GraphView and C# 4.7
 
 This node based solution provides a great C# API allowing you to implement conditional graphs, dependencies graphs, processing graphs and more.  
 ![image](https://user-images.githubusercontent.com/6877923/83576832-f2486500-a532-11ea-9d2a-a6b75b980813.png)
