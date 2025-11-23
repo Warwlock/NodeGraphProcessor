@@ -2,6 +2,22 @@
 
 **This is forked version of original [NodeGraphProcessor](https://github.com/alelievr/NodeGraphProcessor) for my open source projects.**
 
+Installation
+------------
+
+- Go to `Project Settings --> Package Manager`
+- Under Scoped Registries create a new one.
+- Enter this:
+   - **Name:** Warwlock
+   - **URL:** `https://registry.npmjs.com`
+   - **Scope(s):** com.warwlock
+
+Compatibility
+------------
+
+*   **Unity Versions:** Compatible with 2021.3 and above.
+
+
 ## Original Description
 
 Node graph editor framework focused on data processing using Unity UIElements, GraphView and C# 4.7
@@ -41,41 +57,6 @@ public class SubNode : BaseNode
     }
 }
 ```
-
-## Unity Compatible versions
-
-This project requires at least Unity **2020.2** with a scripting runtime version of 4.x in player settings.  
-The current Unity version used for the project is **2020.2.0f1**, if you want to install NodeGraphProcessor in an older unity project, you can install it via Open UPM (minimum version: Unity **2019.3**).
-
-## Installation
-
-<details><summary>Instructions</summary>
-
-### Install Manually
-There are two ways to install this asset: you can use the Unity package manager or move the entire repo inside your Assets folder.
-To install using the package manager:
-
-- download this repo
-- inside the package manager click the '+' button at the bottom to add a package from disk
-- then select the package.json file located in `Assets/NodeGraphProcessor`
-- package is installed :)
-
-### Install via OpenUPM
-
-The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
-
-```
-openupm add com.alelievr.node-graph-processor
-```
-
-### Install via Git
-
-Alternatively, you can use the [git address feature in the package manager](https://forum.unity.com/threads/git-support-on-package-manager.573673/) on the branch [#upm](https://github.com/alelievr/NodeGraphProcessor/tree/upm), it only contains the package but it may be out of sync compared to master.
-
-Note that you'll not have access to the examples provided in this repo because the package only include the core of NodeGraphProcessor.
-
-</details>
-
 
 ## Community 
 
