@@ -1,7 +1,7 @@
 {
   "name": "com.warwlock.node-graph-processor",
   "displayName": "Node Graph Processor",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "unity": "2021.3",
   "description": "Node graph editor framework focused on data processing using Unity UIElements and C# 4.7",
   "documentationUrl": "https://github.com/Warwlock/NodeGraphProcessor/blob/main/Documentation~/Documentation.md",
@@ -9,9 +9,9 @@
   "licensesUrl": "https://github.com/Warwlock/NodeGraphProcessor/blob/main/LICENSE.md",
   "changelogUrl": "https://github.com/Warwlock/NodeGraphProcessor/blob/main/CHANGELOG.md",
   "keywords": [
-      "graph",
-      "UIElements",
-      "unity"
+    "graph",
+    "UIElements",
+    "unity"
   ],
   "author": "Warwlock",
   "bugs": {
@@ -22,11 +22,11 @@
     "url": "ssh://git@github.com:Warwlock/NodeGraphProcessor.git"
   },
   "samples": [
-     {
-       "displayName": "Examples",
-       "description": "A bunch of examples using the NodeGraphProcessor API to create custom nodes and graphs",
-       "path": "Samples~/Examples"
-     }
-   ],
+    {
+      "displayName": "Examples",
+      "description": "A bunch of examples using the NodeGraphProcessor API to create custom nodes and graphs",
+      "path": "Samples~/Examples"
+    }
+  ],
   "category": "Unity"
 }
