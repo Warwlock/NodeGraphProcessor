@@ -836,9 +836,13 @@ namespace GraphProcessor
 			foreach (var propertyField in this.Query<PropertyField>().ToList())
 			{
 				propertyField.Unbind();
-				// The property path look like this: nodes.Array.data[x].fieldName
-				// And we want to update the value of x with the new node index:
-				propertyField.bindingPath = s_ReplaceNodeIndexPropertyPath.Replace(propertyField.bindingPath, m => m.Groups[1].Value + nodeIndexString + m.Groups[3].Value);
+                // The property path look like this: nodes.Array.data[x].fieldName
+                // And we want to update the value of x with the new node index:
+                if (propertyField == null)
+                    continue;
+				if (propertyField.bindingPath == null) // Argument Expection: propertyField.bindingPath null fix
+                    continue;
+                propertyField.bindingPath = s_ReplaceNodeIndexPropertyPath.Replace(propertyField.bindingPath, m => m.Groups[1].Value + nodeIndexString + m.Groups[3].Value);
 				propertyField.Bind(owner.serializedGraph);
 			}
 		}
